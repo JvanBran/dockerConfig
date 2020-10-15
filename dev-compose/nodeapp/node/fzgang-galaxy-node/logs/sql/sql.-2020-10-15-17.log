@@ -1,0 +1,895 @@
+[2020-10-15T17:03:33.583] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:33 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:03:39.704] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:39 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:03:47.925] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:47 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:03:54.023] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:54 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:03:54.025] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:54 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:03:54.030] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:54 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:03:54.325] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:54 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:03:58.706] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:58 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:03:58.708] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:58 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:03:58.886] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:58 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:03:59.148] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:03:59 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:05:08.996] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:05:08 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:05:08.998] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:05:08 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:05:09.159] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:05:09 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:05:09.414] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:05:09 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:06:22.190] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:22 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:06:22.192] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:22 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:06:22.336] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:22 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:06:22.666] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:22 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:06:25.700] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:25 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:06:25.701] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:25 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:06:27.759] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:27 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:06:27.760] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:27 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:06:49.766] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:49 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:06:49.768] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:49 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:06:49.976] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:49 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:06:50.309] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:50 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:06:53.342] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:53 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:06:53.344] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:53 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:06:53.533] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:53 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:06:53.821] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:06:53 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:07:01.576] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:01 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:07:01.578] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:01 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:01.708] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:01 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:07:01.941] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:01 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:07:03.078] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:03 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:03.078] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:03 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:07:06.824] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:06 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:06.825] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:06 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:07:22.549] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:22 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:07:22.555] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:22 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:22.730] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:22 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:07:23.023] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:23 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:07:24.107] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:24 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:24.107] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:24 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:07:25.179] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:25 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:25.180] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:25 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:07:35.732] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:35 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:07:35.735] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:35 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:35.910] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:35 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:07:36.291] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:36 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:07:36.591] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:36 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:36.591] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:36 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:07:43.620] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:43 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:07:43.621] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:43 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:43.743] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:43 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:07:43.971] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:43 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:07:45.685] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:45 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:07:45.687] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:45 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:45.837] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:45 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:07:46.107] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:46 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:07:51.033] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:51 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:07:51.036] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:51 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:51.213] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:51 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:07:51.521] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:51 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:07:56.564] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:56 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:07:56.568] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:56 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:07:56.745] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:56 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:07:57.128] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:07:57 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:08:00.270] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:00 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:08:00.270] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:00 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version`, `category` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:08:17.905] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:17 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:08:17.907] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:17 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:08:18.035] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:18 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举11', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:08:18.286] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:18 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:08:21.031] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:21 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:08:21.033] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:21 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:08:21.177] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:21 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `category11` TEXT NOT NULL COMMENT '错误枚举11', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:08:21.443] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:21 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:08:30.886] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:30 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:08:30.888] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:30 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:08:31.024] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:31 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `category11` TEXT NOT NULL COMMENT '错误枚举11', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:08:31.382] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:31 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:08:38.287] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:38 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:08:38.287] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:38 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version`, `category`, `category11` AS `category22` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:08:47.312] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:47 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:08:47.314] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:47 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:08:47.468] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:47 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `category22` TEXT NOT NULL COMMENT '错误枚举11', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:08:47.730] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:47 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:08:52.676] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:52 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:08:52.678] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:52 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:08:52.841] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:52 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `category22` TEXT NOT NULL COMMENT '错误枚举22', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:08:53.088] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:08:53 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:09:06.007] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:06 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:09:06.009] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:06 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:09:06.128] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:06 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `category33` TEXT NOT NULL COMMENT '错误枚举33', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:09:06.400] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:06 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:09:18.661] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:18 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:09:18.662] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:18 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:09:18.807] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:18 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:09:19.080] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:19 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:09:35.428] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:35 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:09:35.430] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:35 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:09:35.577] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:35 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:09:35.861] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:35 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:09:59.860] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:59 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:09:59.862] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:09:59 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:10:00.012] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:10:00 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:10:00.310] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:10:00 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:10:18.704] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:10:18 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:10:18.724] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:10:18 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:10:18.894] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:10:18 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:10:19.251] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:10:19 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:11:06.011] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:06 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:11:06.012] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:06 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:11:06.191] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:06 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:11:06.449] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:06 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:11:07.679] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:07 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:11:07.681] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:07 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:11:07.819] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:07 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:11:08.041] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:08 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:11:16.811] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:16 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:11:16.813] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:16 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:11:16.959] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:16 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:11:17.327] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:17 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:11:47.965] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:47 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:11:47.969] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:47 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:11:48.122] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:48 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:11:48.405] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:11:48 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:12:52.726] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:12:52 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:12:52.728] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:12:52 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:12:52.892] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:12:52 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) NOT NULL COMMENT '系统版本', `category` TEXT NOT NULL COMMENT '错误枚举', `logType` TINYTEXT NOT NULL COMMENT '日志类型', `url` TEXT NOT NULL COMMENT '请求地址', `post` TEXT NOT NULL COMMENT '请求参数', `path` TEXT NOT NULL COMMENT '错误页面地址', `logInfo` TEXT NOT NULL COMMENT '日志信息', `deviceInfo` TEXT NOT NULL COMMENT '设备信息', `createdTime` BIGINT(20) NOT NULL COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:12:53.246] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:12:53 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:16:09.625] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:09 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:16:09.626] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:09 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:16:09.780] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:09 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:16:10.054] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:10 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:16:14.119] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:14 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:16:14.121] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:14 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:16:14.264] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:14 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:16:14.523] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:14 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:16:16.995] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:16 GMT+0800 (中国标准时间)Executing (default): INSERT INTO `galaxy_log` (`id`,`version`,`category`,`logType`,`url`,`post`) VALUES (DEFAULT,?,?,?,?,?);
+*************** sql log end ***************
+
+[2020-10-15T17:16:28.431] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:28 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:16:28.433] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:28 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version`, `category`, `logType`, `url`, `post`, `path`, `logInfo`, `deviceInfo`, `createdTime` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:16:42.761] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:42 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:16:42.763] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:42 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:16:42.899] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:42 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:16:43.168] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:43 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:16:51.592] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:51 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:16:51.594] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:51 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:16:51.752] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:51 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:16:51.992] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:16:51 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:52:10.888] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:10 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:52:10.893] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:10 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:52:11.033] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:11 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:52:11.316] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:11 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:52:12.978] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:12 GMT+0800 (中国标准时间)Executing (default): INSERT INTO `galaxy_log` (`id`,`version`,`category`,`logType`,`url`,`post`) VALUES (DEFAULT,?,?,?,?,?);
+*************** sql log end ***************
+
+[2020-10-15T17:52:20.767] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:20 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:52:20.768] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:20 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version`, `category`, `logType`, `url`, `post`, `path`, `logInfo`, `deviceInfo`, `createdTime` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:52:50.076] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:50 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:52:50.078] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:50 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:52:50.237] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:50 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:52:50.510] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:50 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:52:51.874] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:51 GMT+0800 (中国标准时间)Executing (default): SELECT count(*) AS `count` FROM `galaxy_log` AS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:52:51.875] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:51 GMT+0800 (中国标准时间)Executing (default): SELECT `id`, `version`, `category`, `logType`, `url`, `post`, `path`, `logInfo`, `deviceInfo`, `createdTime` FROM `galaxy_log` AS `galaxy_log` LIMIT 0, 2;
+*************** sql log end ***************
+
+[2020-10-15T17:52:55.912] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:52:55 GMT+0800 (中国标准时间)Executing (default): INSERT INTO `galaxy_log` (`id`,`version`,`category`,`logType`,`url`,`post`) VALUES (DEFAULT,?,?,?,?,?);
+*************** sql log end ***************
+
+[2020-10-15T17:53:07.616] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:07 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:53:07.618] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:07 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:53:07.765] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:07 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:53:07.996] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:07 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:53:08.083] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:08 GMT+0800 (中国标准时间)Executing (default): INSERT INTO `galaxy_log` (`id`,`version`,`category`,`logType`,`url`,`post`) VALUES (DEFAULT,?,?,?,?,?);
+*************** sql log end ***************
+
+[2020-10-15T17:53:29.473] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:29 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:53:29.475] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:29 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:53:29.664] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:29 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:53:30.130] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:30 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+
+[2020-10-15T17:53:37.994] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:37 GMT+0800 (中国标准时间)Executing (default): SELECT 1+1 AS result
+*************** sql log end ***************
+
+[2020-10-15T17:53:37.995] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:37 GMT+0800 (中国标准时间)Executing (default): DROP TABLE IF EXISTS `galaxy_log`;
+*************** sql log end ***************
+
+[2020-10-15T17:53:38.178] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:38 GMT+0800 (中国标准时间)Executing (default): CREATE TABLE IF NOT EXISTS `galaxy_log` (`id` INTEGER UNSIGNED NOT NULL auto_increment , `version` VARCHAR(255) COMMENT '系统版本', `category` TEXT COMMENT '错误枚举', `logType` TINYTEXT COMMENT '日志类型', `url` TEXT COMMENT '请求地址', `post` TEXT COMMENT '请求参数', `path` TEXT COMMENT '错误页面地址', `logInfo` TEXT COMMENT '日志信息', `deviceInfo` TEXT COMMENT '设备信息', `createdTime` BIGINT(20) COMMENT '创建时间', PRIMARY KEY (`id`)) ENGINE=InnoDB COMMENT '前端异常表';
+*************** sql log end ***************
+
+[2020-10-15T17:53:38.515] [INFO] sqlponse - 
+*************** sql log start ***************
+Thu Oct 15 2020 17:53:38 GMT+0800 (中国标准时间)Executing (default): SHOW INDEX FROM `galaxy_log`
+*************** sql log end ***************
+

@@ -1,0 +1,25 @@
+apps:
+    - script   : './bin/www'
+      args    : ['env']
+      cwd    : './node/fzgang-galaxy-node'
+      name     : 'fzgang-galaxy-node'
+      instances: 1
+      exec_mode: cluster
+      env: 
+        sqlUserName: root
+        sqlPassWord: Wanwoo@123
+        sqlDatabase: operation
+        sqlHost: 172.18.1.190
+        sqlPort: 13361
+        sqlDialect: mysql
+        nacosIP: 172.18.1.22:18679
+        nacosNameSpace: public
+        nacosServiceName: fzgang-node-server
+        nacosGroupName: DEFAULT_GROUP
+        appPort: 18701
+        appIP: 172.18.1.76
+      log_date_format: "YYYY-MM-DD HH:mm Z"
+      error_file: "/var/log/pm2/fzgang-galaxy-node/app-err.log"
+      out_file: "/var/log/pm2/fzgang-galaxy-node/app-out.log"
+      combine_logs: false
+      ignore_watch: ["node_modules","logs"]

@@ -1,0 +1,55 @@
+version: '3'
+services: 
+    nginx:
+        image: nginx:1.18.0
+        restart: always
+        environment:
+            - TZ=Asia/Shanghai
+        container_name: dev-nginx
+        ports:
+            - 6001:6001
+        network_mode: "host"
+        volumes:
+            - ./nginx/config/nginx.conf:/etc/nginx/nginx.conf:rw
+            - ./nginx/config/conf.d:/etc/nginx/conf.d:rw
+            - ./nginx/log:/var/log/nginx:rw
+            - ./nginx/html:/etc/nginx/html:rw
+    nodeapp:
+        image: keymetrics/pm2:14-stretch
+        restart: always
+        user: root
+        working_dir: /home
+        network_mode: "host"
+        extra_hosts:
+            - "172.18.1.76:0.0.0.0"
+        command:
+            - /bin/sh
+            - -c
+            - |
+                pm2-docker start ./ecosystem.yml
+        environment:
+            - TZ=Asia/Shanghai
+        container_name: dev-nodeapp
+        ports:
+            - 18700:18700
+            - 18701:18701
+        volumes:
+            - ./nodeapp/node:/home/node:rw
+            - ./nodeapp/ecosystem.yml:/home/ecosystem.yml:rw
+            - ./nodeapp/log:/var/log/pm2:rw
+    mysql:
+        image: mysql:5.7
+        restart: always # 设置容器自启模式
+        user: root
+        network_mode: "host" # 如果需要容器使用宿主机IP(内网IP)，则可以配置此项
+        container_name: dev-mysql # 指定容器名称，如果不设置此参数，则由系统自动生成
+        extra_hosts:
+            - "172.18.1.76:0.0.0.0"
+        environment:
+            - TZ=Asia/Shanghai # 设置容器时区与宿主机保持一致
+            - MYSQL_ROOT_PASSWORD=Wanwoo@123 # 设置root密码
+        # volumes:
+        #     # - ./mysql/data:/var/lib/mysql/data:rw # 映射数据库保存目录到宿主机，防止数据丢失
+        #     # # - ./mysql/my.cnf:/etc/mysql/my.cnf:rw # 映射数据库配置文件
+        ports:
+            - 3306:3306

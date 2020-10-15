@@ -1,0 +1,440 @@
+2020-10-15 17:27 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:31 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:39 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:41 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:49 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:50 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:54 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:55 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:56 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
+2020-10-15 17:58 +08:00: Unable to connect to the database: HostNotReachableError [SequelizeHostNotReachableError]: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21) {
+  parent: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  },
+  original: Error: connect EHOSTUNREACH 172.18.1.190:13361
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '172.18.1.190',
+    port: 13361,
+    fatal: true
+  }
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+SequelizeHostNotReachableError: connect EHOSTUNREACH 172.18.1.190:13361
+    at /home/node/fzgang-galaxy-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19
+    at tryCatcher (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/node/fzgang-galaxy-node/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (internal/timers.js:461:21)
